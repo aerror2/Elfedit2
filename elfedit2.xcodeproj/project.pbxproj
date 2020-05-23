@@ -269,11 +269,11 @@
 				OTHER_LDFLAGS = (
 					"-L/usr/local/lib",
 					"-lintl",
-					"-L/Volumes/10131/Codes2/binutils-2.34/libctf/.libs/",
+					"-L./libctf/.libs/",
 					"-lctf-nobfd",
-					"-L/Volumes/10131/Codes2/binutils-2.34/zlib",
+					"-L./zlib",
 					"-lz",
-					"-L/Volumes/10131/Codes2/binutils-2.34/libiberty",
+					"-L./libiberty",
 					"-liberty",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,11 +299,11 @@
 				OTHER_LDFLAGS = (
 					"-L/usr/local/lib",
 					"-lintl",
-					"-L/Volumes/10131/Codes2/binutils-2.34/libctf/.libs/",
+					"-L./libctf/.libs/",
 					"-lctf-nobfd",
-					"-L/Volumes/10131/Codes2/binutils-2.34/zlib",
+					"-L./zlib",
 					"-lz",
-					"-L/Volumes/10131/Codes2/binutils-2.34/libiberty",
+					"-L./libiberty",
 					"-liberty",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
